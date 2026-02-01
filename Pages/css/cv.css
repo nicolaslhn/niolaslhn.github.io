@@ -275,3 +275,23 @@ body {
 #competences .container .classement5 {
     background-position: 0 0px;
 }
+
+/******************************************
+* Passions
+******************************************/
+#passions {
+    margin-top: 20px;
+}
+#passions .passion-item {
+    display: inline-block;
+    margin: 5px 5px 5px 0;
+}
+#passions .badge {
+    font-size: 1.2em;
+    padding: 8px 12px;
+    font-weight: normal;
+}
+#passions .badge .fa-heart {
+    margin-right: 5px;
+    color: rgb(226,0,26);
+}
