@@ -1,19 +1,26 @@
 /* Style général du body */
 body {
     padding-top: 56px;
+    background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+    min-height: 100vh;
 }
 
 /* Section principale avec fond gris */
 .main-header {
-    background-color: #e9ecef;
-    padding: 2rem 0;
+    background-color: white;
+    padding: 3rem 0;
     margin-bottom: 0;
+    border-radius: 15px;
+    box-shadow: 0 10px 40px rgba(100, 181, 246, 0.2);
+    margin-top: 2rem;
 }
 
 .main-header h1 {
     font-size: 2.5rem;
     font-weight: 400;
     margin-bottom: 1.5rem;
+    color: #1976d2;
+    text-align: center;
 }
 
 .main-header .row {
@@ -23,45 +30,86 @@ body {
 .main-header img {
     max-width: 100%;
     height: auto;
+    border-radius: 50%;
+    box-shadow: 0 5px 20px rgba(66, 165, 245, 0.3);
+}
+
+.main-header p {
+    color: #37474f;
+    font-size: 1.1rem;
+    line-height: 1.6;
 }
 
 /* Bouton personnalisé bleu */
 .btn-nicolas {
     color: #fff;
-    background-color: #007bff;
-    border-color: #007bff;
+    background: linear-gradient(135deg, #42a5f5, #64b5f6);
+    border: none;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 10px rgba(66, 165, 245, 0.2);
 }
 
 .btn-nicolas:hover {
-    background-color: #0056b3;
-    border-color: #0056b3;
+    background: linear-gradient(135deg, #1e88e5, #42a5f5);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(66, 165, 245, 0.4);
+    color: #fff;
 }
 
 /* Section de contenu avec fond blanc */
 .content-section {
     background-color: #fff;
     padding: 3rem 0;
+    margin-top: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 40px rgba(100, 181, 246, 0.2);
 }
 
 .content-section h2 {
     font-size: 1.75rem;
     margin-bottom: 1rem;
+    color: #1976d2;
+    font-weight: 600;
+}
+
+.content-section p {
+    color: #546e7a;
+    font-size: 1.05rem;
+    line-height: 1.6;
 }
 
 /* Bouton secondaire */
 .btn-secondary {
-    background-color: #6c757d;
-    border-color: #6c757d;
+    background: linear-gradient(135deg, #42a5f5, #64b5f6);
+    border: none;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 10px rgba(66, 165, 245, 0.2);
+}
+
+.btn-secondary:hover {
+    background: linear-gradient(135deg, #1e88e5, #42a5f5);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(66, 165, 245, 0.4);
 }
 
 /* Footer */
 footer {
-    background-color: #f8f9fa;
+    background-color: white;
     padding: 1rem 0;
     margin-top: 3rem;
+    border-radius: 15px 15px 0 0;
+    box-shadow: 0 -5px 20px rgba(100, 181, 246, 0.1);
 }
 
 footer #copyright {
     margin: 0;
     padding: 1rem 0;
+    color: #1976d2;
+    font-weight: 500;
 }
